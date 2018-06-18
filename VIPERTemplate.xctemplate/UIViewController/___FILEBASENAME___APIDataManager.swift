@@ -8,4 +8,4 @@
 
 import Foundation
 
-class ___VARIABLE_VIPERName:identifier___APIDataManager: ___VARIABLE_VIPERName:identifier___APIDataManagerInputProtocol {}
+final class ___VARIABLE_VIPERName:identifier___APIDataManager: ___VARIABLE_VIPERName:identifier___APIDataManagerInputProtocol {}

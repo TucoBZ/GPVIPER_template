@@ -9,15 +9,7 @@
 import UIKit
 
 class ___VARIABLE_VIPERName:identifier___View: ___VARIABLE_viewControllerSubclass___ {
-    var presenter: ___VARIABLE_VIPERName:identifier___ViewPresenter?
-
-    // MARK: Object lifecycle
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        if presenter == nil {
-            presenter = ___VARIABLE_VIPERName:identifier___Presenter.init(view: self)
-        }
-    }
+    var presenter: ___VARIABLE_VIPERName:identifier___PresenterProtocol?
 
     // MARK: View lifecycle
     override func viewDidLoad() {
@@ -26,8 +18,8 @@ class ___VARIABLE_VIPERName:identifier___View: ___VARIABLE_viewControllerSubclas
     }
 }
 
-
-extension ___VARIABLE_VIPERName:identifier___ViewController : ___VARIABLE_VIPERName:identifier___View {
+// MARK: ___VARIABLE_VIPERName:identifier___ViewProtocol
+extension ___VARIABLE_VIPERName:identifier___View : ___VARIABLE_VIPERName:identifier___ViewProtocol {
     // MARK: Display logic
     func set(_ title: String?) {
         self.title = title

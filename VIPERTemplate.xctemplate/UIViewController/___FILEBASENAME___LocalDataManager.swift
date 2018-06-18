@@ -8,4 +8,4 @@
 
 import Foundation
 
-class ___VARIABLE_VIPERName:identifier___LocalDataManager: ___VARIABLE_VIPERName:identifier___LocalDataManagerInputProtocol {}
+final class ___VARIABLE_VIPERName:identifier___LocalDataManager: ___VARIABLE_VIPERName:identifier___LocalDataManagerInputProtocol {}

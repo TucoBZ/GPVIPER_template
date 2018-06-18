@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>NewVIPER</string>
 	<key>Description</key>
-	<string>This generates a new view controller, with a presenter and protocols using VIPER architecture.</string>
+	<string>This generates a new view controller, using VIPER architecture.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -68,6 +68,70 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>___VARIABLE_VIPERName:identifier___Interactor</string>
+			<key>Description</key>
+			<string>The interactor name</string>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Name</key>
+			<string>Interactor Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_VIPERName:identifier___Router</string>
+			<key>Description</key>
+			<string>The router name</string>
+			<key>Identifier</key>
+			<string>routerName</string>
+			<key>Name</key>
+			<string>Router Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_VIPERName:identifier___APIDataManager</string>
+			<key>Description</key>
+			<string>The API DataManager name</string>
+			<key>Identifier</key>
+			<string>apiDMName</string>
+			<key>Name</key>
+			<string>API DataManager Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_VIPERName:identifier___LocalDataManager</string>
+			<key>Description</key>
+			<string>The Local DataManager name</string>
+			<key>Identifier</key>
+			<string>localDMName</string>
+			<key>Name</key>
+			<string>Local DataManager Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
 			<string>___VARIABLE_VIPERName:identifier___Protocols</string>
 			<key>Description</key>
 			<string>The protocols file</string>
@@ -112,6 +176,6 @@
 	<key>SortOrder</key>
 	<string>8</string>
 	<key>Summary</key>
-	<string>This generates a new view controller, with a presenter using VIPER architecture.</string>
+	<string>This generates a new view controller, using VIPER architecture.</string>
 </dict>
 </plist>

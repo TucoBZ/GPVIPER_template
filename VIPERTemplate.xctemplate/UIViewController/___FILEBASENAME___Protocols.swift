@@ -14,7 +14,7 @@ import UIKit
 // VIEW -> PRESENTER
 protocol ___VARIABLE_VIPERName:identifier___PresenterProtocol {
     // MARK: - Properties
-    weak var view: ___VARIABLE_VIPERName:identifier___ViewProtocol? {get set}
+    var view: ___VARIABLE_VIPERName:identifier___ViewProtocol? {get set}
     var interactor: ___VARIABLE_VIPERName:identifier___InteractorInputProtocol? {get set}
     var router: ___VARIABLE_VIPERName:identifier___RouterProtocol? {get set}
     var screenTitle: String {get}
@@ -26,7 +26,7 @@ protocol ___VARIABLE_VIPERName:identifier___PresenterProtocol {
 // PRESENTER -> VIEW
 protocol ___VARIABLE_VIPERName:identifier___ViewProtocol: class {
     // MARK: - Properties
-    var presenter: ___VARIABLE_VIPERName:identifier___ViewPresenter? {get set}
+    var presenter: ___VARIABLE_VIPERName:identifier___PresenterProtocol? {get set}
 
     func set(_ title: String?)
 }
