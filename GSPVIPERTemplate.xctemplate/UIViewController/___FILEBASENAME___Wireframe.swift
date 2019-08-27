@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ___VARIABLE_VIPERName:identifier___Wireframe: ___VARIABLE_VIPERName:identifier___RouterProtocol {
+final class ___VARIABLE_VIPERName:identifier___Wireframe {
 
     private var navigation: UINavigationController?
     private var viewController: ___VARIABLE_VIPERName:identifier___ViewController?

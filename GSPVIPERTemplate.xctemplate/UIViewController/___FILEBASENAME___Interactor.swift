@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class ___VARIABLE_VIPERName:identifier___Interactor: ___VARIABLE_VIPERName:identifier___InteractorInputProtocol {
+final class ___VARIABLE_VIPERName:identifier___Interactor: ___VARIABLE_VIPERName:identifier___InteractorInput {
 
     // MARK: Properties
     weak var output: ___VARIABLE_VIPERName:identifier___InteractorOutput?

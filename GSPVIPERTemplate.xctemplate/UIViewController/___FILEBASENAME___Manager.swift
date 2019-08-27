@@ -9,5 +9,5 @@
 import Foundation
 
 final class ___VARIABLE_VIPERName:identifier___Manager: ___VARIABLE_VIPERName:identifier___ManagerInput {
-    private weak var output: ___VARIABLE_VIPERName:identifier___ManagerOutput?
+    weak var output: ___VARIABLE_VIPERName:identifier___ManagerOutput?
 }
