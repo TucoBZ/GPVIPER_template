@@ -6,7 +6,7 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-final class ___VARIABLE_VIPERName:identifier___ViewControllerBuilder {
+class ___VARIABLE_VIPERName:identifier___ViewControllerBuilder {
     static func make(wireframe: ___VARIABLE_VIPERName:identifier___Wireframe) -> ___VARIABLE_VIPERName:identifier___ViewController {
         let viewController = ___VARIABLE_VIPERName:identifier___ViewController(___VARIABLE_VIPERName:identifier___ViewController.self)
 

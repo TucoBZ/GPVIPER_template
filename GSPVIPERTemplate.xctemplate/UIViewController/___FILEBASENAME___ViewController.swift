@@ -12,7 +12,7 @@ final class ___VARIABLE_VIPERName:identifier___ViewController: ___VARIABLE_viewC
     
     // MARK: class Outlets
 
-    // MARK: class variables
+    // MARK: Properties
     var presenter: ___VARIABLE_VIPERName:identifier___PresenterInput?
 
     // MARK: View lifecycle
