@@ -8,4 +8,6 @@
 
 import Foundation
 
-final class ___VARIABLE_VIPERName:identifier___APIDataManager: ___VARIABLE_VIPERName:identifier___APIDataManagerInputProtocol {}
+final class ___VARIABLE_VIPERName:identifier___Manager: ___VARIABLE_VIPERName:identifier___ManagerInput {
+    private weak var output: ___VARIABLE_VIPERName:identifier___ManagerOutput?
+}

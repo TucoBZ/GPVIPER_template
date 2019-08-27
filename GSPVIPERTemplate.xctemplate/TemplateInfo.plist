@@ -36,7 +36,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_VIPERName:identifier___View</string>
+			<string>___VARIABLE_VIPERName:identifier___ViewController</string>
 			<key>Description</key>
 			<string>The view controller name</string>
 			<key>Identifier</key>
@@ -84,13 +84,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_VIPERName:identifier___Router</string>
+			<string>___VARIABLE_VIPERName:identifier___Wireframe</string>
 			<key>Description</key>
-			<string>The router name</string>
+			<string>The wireframe name</string>
 			<key>Identifier</key>
-			<string>routerName</string>
+			<string>wireframeName</string>
 			<key>Name</key>
-			<string>Router Name:</string>
+			<string>Wireframe Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -100,45 +100,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_VIPERName:identifier___APIDataManager</string>
+			<string>___VARIABLE_VIPERName:identifier___Manager</string>
 			<key>Description</key>
 			<string>The API DataManager name</string>
 			<key>Identifier</key>
 			<string>apiDMName</string>
 			<key>Name</key>
 			<string>API DataManager Name:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_VIPERName:identifier___LocalDataManager</string>
-			<key>Description</key>
-			<string>The Local DataManager name</string>
-			<key>Identifier</key>
-			<string>localDMName</string>
-			<key>Name</key>
-			<string>Local DataManager Name:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_VIPERName:identifier___Protocols</string>
-			<key>Description</key>
-			<string>The protocols file</string>
-			<key>Identifier</key>
-			<string>protocolName</string>
-			<key>Name</key>
-			<string>Protocol Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
